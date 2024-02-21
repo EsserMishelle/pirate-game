@@ -1,0 +1,86 @@
+[
+    {
+        "image": "../assets/bomb1.png",
+        "name": "bomb1"
+    },
+    {
+        "image": "../assets/bomb2.png",
+        "name": "bomb2"
+    },
+  {
+      "image": "../assets/bomb3.png",
+      "name": "bomb3"
+  },
+  {
+      "image": "../assets/bomb4.png",
+      "name": "bomb4"
+  },
+  {
+      "image": "../assets/bomb5.png",
+      "name": "bomb5"
+  },
+  {
+      "image": "../assets/bomb6.png",
+      "name": "bomb6"
+  },
+  {
+        "image": "../assets/blue-treasure.png",
+        "name": "blue-treasure"
+    },
+  {
+      "image": "../assets/blue-treasure-2.png",
+      "name": "blue-treasure-2"
+  },
+    {
+        "image": "../assets/red-treasure.png",
+        "name": "red-treasure"
+    },
+  {
+      "image": "../assets/red-treasure-2.png",
+      "name": "red-treasure-2"
+  },
+    {
+        "image": "../assets/yellow-treasure.png",
+        "name": "yellow-treasure"
+    },
+  {
+      "image": "../assets/yellow-treasure-2.png",
+      "name": "yellow-treasure-2"
+  },
+    {
+        "image": "../assets/blank1.jpg",
+        "name": "blank1"
+    },
+    {
+        "image": "../assets/blank2.jpg",
+        "name": "blank2"
+    },
+    {
+        "image": "../assets/blank3.jpg",
+        "name": "blank3"
+    },
+    {
+        "image": "../assets/blank4.jpg",
+        "name": "blank4"
+    },
+  {
+      "image": "../assets/blank5.jpg",
+      "name": "blank5"
+  },
+  {
+      "image": "../assets/blank6.jpg",
+      "name": "blank6"
+  },
+  {
+      "image": "../assets/blank7.jpg",
+      "name": "blank7"
+  },
+  {
+      "image": "../assets/map2.jpg",
+      "name": "map2"
+  },
+  {
+    "image": "../assets/parrot.png",
+    "name": "parrot"
+}
+]

@@ -1,0 +1,176 @@
+
+fille@DESKTOP-4JS80HJ MINGW64 ~
+$ cd d:
+
+fille@DESKTOP-4JS80HJ MINGW64 /d
+$ cd perscholas
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas (main)
+$ ls
+'CSX For Loop Screenshot 2023-10-29 222422.jpg'
+'CSX While Loop Screenshot 2023-10-29 222422.jpg'
+'Chocolate Chip Banana Bread.jpg'
+ Mane-Tame-hair-spray.webp
+ PD/
+'Per Scholas Learner Holiday Schedule.pdf'
+'Screenshot 2023-11-09 102423 error.jpg'
+ Wk10Day4HW_Stocks_print_out.docx
+ angora-rabbit-on--straw-578120450-e981c4020a9545989ee8ba56ca574efd-angora.webp
+'bread thumb-1920-368836 copy.gif'
+'bread thumb-1920-368836.jpg'
+'bread thumb-1920-368836.tif'
+ drawers/
+ ecard-nycstartups.jpg
+ fabulus-cat-giphy.gif
+ galaxy-far-far-away/
+ game_memory/
+'gitBash Screenshot 2023-10-31 004542.jpg'
+'gitBash Screenshot Week 3 Day 3 Lab .jpg'
+'gitHub Screenshot 2023-10-31 004859.jpg'
+ homework.js
+ homework_old.js
+ joke/
+ miniProject/
+ moist-banana-bread.jpg
+ pexels-photo-cat-crown.jpg
+ pexels-photo-cat.jpeg
+ pirate-game/
+ pirate-game-works/
+ rabbit-pexels-photo-104373.jpeg
+ software_homework/
+ week6/
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas (main)
+$ cd pirate-game
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (main)
+$ git init
+Initialized empty Git repository in D:/PerScholas/pirate-game/.git/
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (master)
+$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Treasure Ship Game Read Me.docx
+        assets/
+        data/
+        index.html
+        index.js
+        package.json
+        style.css
+        style_works.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (master)
+$ git add -A
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (master)
+$ git branch -M main
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (main)
+$ git remote add origin https://github.com/EsserMishelle/pirate-game.git
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/EsserMishelle/pirate-game.git'
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (main)
+$ git add -A
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (main)
+$ ls
+'Treasure Ship Game Read Me.docx'   data/        index.js       style.css
+ assets/                            index.html   package.json   style_works.css
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (main)
+$ git commit -m "first commit"
+[main (root-commit) c073092] first commit
+ 67 files changed, 1981 insertions(+)
+ create mode 100644 Treasure Ship Game Read Me.docx
+ create mode 100644 assets/2-dice.jpg
+ create mode 100644 assets/2-dice.png
+ create mode 100644 assets/Boat.jpg
+ create mode 100644 assets/Boat1.png
+ create mode 100644 assets/Boat2.png
+ create mode 100644 assets/Boat_old.jpg
+ create mode 100644 assets/Candyinc-9Gl2.otf
+ create mode 100644 assets/Rustic-dyJl.ttf
+ create mode 100644 assets/TexasCrustPersonalUseReg-w1nrw.ttf
+ create mode 100644 assets/blank1.jpg
+ create mode 100644 assets/blank2.jpg
+ create mode 100644 assets/blank3.jpg
+ create mode 100644 assets/blank4.jpg
+ create mode 100644 assets/blank5.jpg
+ create mode 100644 assets/blank6.jpg
+ create mode 100644 assets/blank7.jpg
+ create mode 100644 assets/blank8.jpg
+ create mode 100644 assets/blank9.jpg
+ create mode 100644 assets/blue-treasure-2.png
+ create mode 100644 assets/blue-treasure.jpg
+ create mode 100644 assets/blue-treasure.png
+ create mode 100644 assets/bomb1.png
+ create mode 100644 assets/bomb2.png
+ create mode 100644 assets/bomb3.png
+ create mode 100644 assets/bomb4.png
+ create mode 100644 assets/bomb5.png
+ create mode 100644 assets/bomb6.png
+ create mode 100644 assets/dice-roll.gif
+ create mode 100644 assets/dice1.png
+ create mode 100644 assets/dice2.png
+ create mode 100644 assets/dice3.png
+ create mode 100644 assets/dice4.png
+ create mode 100644 assets/dice5.png
+ create mode 100644 assets/dice6.png
+ create mode 100644 assets/green-pirate-big.jpg
+ create mode 100644 assets/green-pirate.jpg
+ create mode 100644 assets/green-pirate.png
+ create mode 100644 assets/green-pirate2
+ create mode 100644 assets/green-treasure-2.png
+ create mode 100644 assets/green-treasure.jpg
+ create mode 100644 assets/green-treasure.png
+ create mode 100644 assets/map2.jpg
+ create mode 100644 assets/map3.jpg
+ create mode 100644 assets/map4.jpg
+ create mode 100644 assets/mean-pirate.jpg
+ create mode 100644 assets/oceanMoving4.gif
+ create mode 100644 assets/parrot.png
+ create mode 100644 assets/pirateThrowingTable.gif
+ create mode 100644 assets/pirateTossingCoins.gif
+ create mode 100644 assets/red-pirate-big.jpg
+ create mode 100644 assets/red-pirate.jpg
+ create mode 100644 assets/red-treasure-2.png
+ create mode 100644 assets/red-treasure.jpg
+ create mode 100644 assets/red-treasure.png
+ create mode 100644 assets/wooden1.jfif
+ create mode 100644 assets/wooden1small.jpg
+ create mode 100644 assets/yellow-treasure-2.png
+ create mode 100644 assets/yellow-treasure.jpg
+ create mode 100644 assets/yellow-treasure.png
+ create mode 100644 data/cards.json
+ create mode 100644 data/index.js
+ create mode 100644 index.html
+ create mode 100644 index.js
+ create mode 100644 package.json
+ create mode 100644 style.css
+ create mode 100644 style_works.css
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (main)
+$ git push -u origin main
+Enumerating objects: 54, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (54/54), done.
+Writing objects: 100% (54/54), 21.91 MiB | 879.00 KiB/s, done.
+Total 54 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/EsserMishelle/pirate-game.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/perscholas/pirate-game (main)

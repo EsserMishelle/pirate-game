@@ -1,0 +1,15 @@
+{
+  "name": "ship-of-treasures-game",
+  "version": "1.0.0",
+  "description": "A pirate-themed game with treasures and bombs.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "react-scripts build",
+    "copy-files": "if not exist build mkdir build && copy index.html index.js build",
+    "generate-index": "echo ^<html^>^<head^>^</head^>^<body^>Hello, World!^</body^>^</html^>^ > build/index.html"
+  },
+  "author": "Mishelle Esser",
+  "license": "MESSER",
+  "keywords": []
+}

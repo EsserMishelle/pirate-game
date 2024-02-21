@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ship of Treasures Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- <body onload="openingModal()"> -->
+  <header>
+    <h1 id="main-title">Treasure Ship</h1>
+    <!-- <p id="intro" class="intro">
+        Arrgh! Board on this ship might ye be, grub some treasure must ye not.</p> 
+    <p class="intro">
+        Sailin' cross the Seven Seas, give ye me all looties when ye see!</p> -->
+  </header>
+  <div id="opening-modal-id" class="opening-modal">
+    <div class="opening-modal-content">
+      <div class="opening-modal-container">
+
+        <img src="/assets/red-pirate-big.jpg" class="pirate-picture" alt="red-pirate-big">
+        <span>
+        <img src="/assets/green-pirate-big.jpg" class="pirate-picture" alt="green-pirate-big">
+        </span>
+        <p id="intro" class="intro">Arrgh! Board on this ship might ye be, </p>
+        <p class="intro">grub some treasure must ye not.</p>
+        <p class="intro">Sailin' cross the Seven Seas, </p>
+        <p class="intro">give ye me all looties when ye see!</p>
+        <br>
+        <h2>Ye feeling lucky for treasure? Click 'PLAY' to enter!</h2>
+        <h3 class="how-to">Each player chooses either the Red or the Green Pirate and place the pirate pice on a desired card. Roll the dice, move your pirate according to what the dice says, and flip the card underneath to see your fate! </h3>
+        <button id="btn-modal-start">PLAY</button>
+        <span onclick="document.getElementById('opening-modal-id').style.display='none'" class="opening-modal-span">&times;</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="side-bar">
+    <div class="small-container">
+      <button id="btnDiceRoll" class="dice-roll">
+
+        <img id="dice-roll-picture" class="dice-roll-top" alt="dice" src="/assets/2-dice.png" >
+        <a href="/assets/dice-roll.gif" class="dice-roll-bottom"></a>
+      </button>
+    </div>
+    <div class="move-spaces" id="move-spaces-display">
+    </div>
+  </div>
+
+  <div class="main">
+    <!-- <div class="board" id="board"></div> -->
+    <div class="grid-container"></div>
+
+    <div class="actions">
+      <button id="btn-reset" onclick="reset()">Reset</button>
+      <div class="wrapper">
+        <label for="opt-1" class="option opt-1">
+            <img src="/assets/red-pirate.jpg" id="red-pirate-id" alt="red pirate" class="piece-image red-pirate" draggable="true">
+            <span>Red Beard</span>
+            <input type="radio" name="player-type" id="opt-1" value="opt-1">
+          </label>
+        
+        <label for="opt-2" class="option opt-2">
+            <img src="/assets/green-pirate.jpg" id="green-pirate-id" alt="green pirate" class="piece-image green-pirate" draggable="true">
+            <span>Green John Silver</span>
+            <input type="radio" name="player-type" id="opt-2" value="opt-2">
+        </label>
+      </div>
+    </div>
+
+    <div id="play-talk" class="talk">
+      <p id="pirate-talk-id" class="pirate-talk"></p>
+    </div>
+    <div id="play-status" class="status">
+      <p id="pirate-status-id" class="pirate-status"></p>
+    </div>  
+
+    <div id="won-modal-id" class="won-modal">
+      <div class="won-modal-content">
+        <div class="won-modal-container">
+            
+            <img src="/assets/pirateTossingCoins.gif" class="pirate-gif" alt="pirate tossing coins">
+            
+            <button id="btn-won-modal-start">RESET</button>
+            <span class ="won-modal-span1"></span>
+            <span class="won-modal-span2">&times;</span>
+
+        </div>
+      </div>
+    </div>      
+      
+    <div id="lost-modal-id" class="lost-modal">
+      <div class="lost-modal-content">
+        <div class="lost-modal-container">
+            <span class="lost-modal-span1"></span>
+            <img src="/assets/pirateThrowingTable.gif" class="pirate-gif" alt="pirate throwing a table">
+            
+            <button id="btn-lost-modal-start">RESET</button>
+            <span class="lost-modal-span2">&times;</span>
+
+        </div>
+      </div>
+    </div>   
+
+  </div>
+
+
+
+
+  <script src="index.js" defer></script>
+
+</body>
+
+</html>
